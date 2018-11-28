@@ -26,4 +26,6 @@ error log)
 * apxs:
     * Ubuntu: `sudo apt-get install apache2-threaded-dev`, edit Makefile change
       `apxs` to `apxs2`
+    * Debian: `sudo apt-get install apache2-dev`, edit Makefile change
+      `apxs` to `apxs2`
 * `LogLevel` of at least `Info` (not important if using DumpPostLogFile)
